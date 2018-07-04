@@ -1,0 +1,40 @@
+Слепок от 2018-02-11 16:03:20  
+ Сессии: 
+      N0 
+ { _id: 5a80147401e72d02fbcd8a3d,
+  blob: '{"cookie":{"httpOnly":true,"path":"/","overwrite":true,"signed":false,"maxAge":14400000}',
+  user: '5a7c32d128164a02e58fbab5',
+  updatedAt: 2018-02-11T10:01:15.610Z,
+  __v: 0 } 
+     N1 
+ { _id: 5a80149712b66302fd0ac2ca,
+  blob: '{"cookie":{"httpOnly":true,"path":"/","overwrite":true,"signed":false,"maxAge":14400000},"messages":{}}',
+  user: '5a7c32d128164a02e58fbab5',
+  updatedAt: 2018-02-11T10:02:38.489Z,
+  __v: 0 } 
+     N2 
+ { _id: 5a8014ca2fee570301389b01,
+  blob: '{"cookie":{"httpOnly":true,"path":"/","overwrite":true,"signed":false,"maxAge":14400000}}',
+  user: '5a7c32d128164a02e58fbab5',
+  updatedAt: 2018-02-11T12:23:54.202Z,
+  __v: 0 } 
+ 
+ Пользователи: 
+      N0 
+ { _id: 5a7c32d128164a02e58fbab5,
+  updatedAt: 2018-02-08T11:21:53.845Z,
+  createdAt: 2018-02-08T11:21:53.845Z,
+  username: 'shopper',
+  displayName: 'Гость',
+  passwordHash: 'kLMo7wJbE3q8/EJ4BxwMvHcb6m7aThtO8QmwOyWyeke46tUhujHPIyUqPSlQZkuJ0Hdt0yxag2zcgsuIjiOKvpIHJQQZWwtT+10zymNpR1oM7ufOL3hqiv4l52hQvnczoSmiN3bT28BSHsX3bXA7Nl9tB7/CEh9IDvurw0feqn8=',
+  salt: 'YVFJMQN5wVeVDbiEUu+9wVwX7EPp4tTL/4Jc1hRZaZRTUrLIn3Ppehc4JNgTRJpArxfaBTC02+2VuRq3r+oczSIx4fFpwgf648+b1/uwfXJizpPy39+G9LTqNOHxYfT0pwPLNWOx+riOTA6GC6V4mIiUHQjeYKbjTpECI3bIwTA=',
+  discount: '1.0',
+  curPrice: '2',
+  showSP_Price: false,
+  useDiscount: true,
+  email: 'myname@mail.ru',
+  phone: '',
+  __v: 0,
+  visiblePrice: [ '1', '2' ] } 
+
+-----------------

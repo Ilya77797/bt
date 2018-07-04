@@ -1,0 +1,71 @@
+{
+  "name": "n",
+  "version": "1.0.0",
+  "dependencies": {
+    "async_hooks": "^1.0.0",
+    "bunyan": "^1.8.12",
+    "clarify": "^2.1.0",
+    "co-busboy": "^1.4.0",
+    "config": "^1.27.0",
+    "crypto": "^1.0.1",
+    "expect": "^21.2.1",
+    "fs-extra": "^4.0.2",
+    "gulp": "^3.9.1",
+    "juice": "^4.2.2",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compose": "^4.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-csrf": "^3.0.6",
+    "koa-favicon": "^2.0.0",
+    "koa-generic-session": "^2.0.0",
+    "koa-logger": "^3.1.0",
+    "koa-passport": "^4.0.1",
+    "koa-router": "^7.2.1",
+    "koa-session-mongoose": "^1.0.0",
+    "koa-static": "^4.0.1",
+    "lodash": "^4.17.4",
+    "md5-file": "^3.2.3",
+    "mime": "^2.0.3",
+    "mongoose": "^4.11.13",
+    "mongoose-beautiful-unique-validation": "^7.0.0",
+    "mz": "^2.7.0",
+    "node-watch": "^0.5.5",
+    "nodemailer": "^4.4.0",
+    "nodemailer-html-to-text": "^2.1.0",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-rc.4",
+    "redis": "^2.8.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.2",
+    "sha256": "^0.2.0",
+    "should": "^13.1.2",
+    "trace": "^3.1.0",
+    "yargs": "^8.0.2",
+      "util":"0.10.3"
+  },
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": "8.5.0",
+    "npm": "5.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilya77797/bteam.2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ilya77797/bteam.2/issues"
+  },
+  "homepage": "https://github.com/Ilya77797/bteam.2#readme",
+  "description": ""
+}

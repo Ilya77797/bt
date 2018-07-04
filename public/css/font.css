@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/robotocondensed-light.eot);
+  src: url(../fonts/robotocondensed-light.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/robotocondensed-light.woff) format('woff'),
+  url(../fonts/robotocondensed-light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-weight: 300;
+  src: url(../fonts/robotocondensed-lightitalic.eot);
+  src: url(../fonts/robotocondensed-lightitalic.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/robotocondensed-lightitalic.woff) format('woff'),
+  url(../fonts/robotocondensed-lightitalic.ttf) format('truetype');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/roboto-condensed.eot);
+  src: url(../fonts/roboto-condensed.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/roboto-condensed.woff) format('woff'),
+  url(../fonts/roboto-condensed.ttf) format('truetype');;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-weight: 400;
+  src: url(../fonts/roboto-condenseditalic.eot);
+  src: url(../fonts/roboto-condenseditalic.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/roboto-condenseditalic.woff) format('woff'),
+  url(../fonts/roboto-condenseditalic.ttf) format('truetype');;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/roboto-boldcondensed.eot);
+  src: url(../fonts/roboto-boldcondensed.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/roboto-boldcondensed.woff) format('woff'),
+  url(../fonts/roboto-boldcondensed.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+  src: url(../fonts/roboto-boldcondenseditalic.eot);
+  src: url(../fonts/roboto-boldcondenseditalic.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/roboto-boldcondenseditalic.woff) format('woff'),
+  url(../fonts/roboto-boldcondenseditalic.ttf) format('truetype');
+  font-style: italic;
+}

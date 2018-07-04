@@ -1,0 +1,95 @@
+doctype html
+html
+
+    head
+        meta(charset="utf-8")
+        meta(id="VP" name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+        title Заказ товара BATTERY TEAM - Тула
+        link(href="css/font.css" rel="stylesheet" type="text/css")
+        link(href="css/style.min.css" rel="stylesheet" type="text/css")
+        link(href="css/product.css" rel="stylesheet" type="text/css")
+        link(href="css/hm-style.min.css" rel="stylesheet" type="text/css")
+        link(href="css/pagination.css" rel="stylesheet" type="text/css")
+        link(rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png")
+        link(rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png")
+        link(rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png")
+        link(rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#000000")
+        link(rel="shortcut icon" type="image/x-icon" href="favicons/favicon.ico")
+        script(src="js/mainClient.js")
+        script(src="js/jquery.min.js")
+        script(src="js/simplePagination.js")
+        script(src="js/jqMobile.js")
+        script(src="js/touchSwipe.min.js")
+
+
+    body.hm
+        div#content
+            header
+                div#header
+                    div#logo.logo
+                        h1
+
+                            a(href="http://www.bteam.ru/") BATTERY TEAM
+                        h3
+                            a(href="http://www.bteam.ru/") Тульский Региональный Филиал
+                        h4.time Последнее обновление #{time} мин. назад
+
+                    if(isLoged)
+                        div.loginForm
+                            form(action="/logout:main" method="POST" id="loginForm")
+                                h3 Добро пожаловать, #{name}
+                                a.submit.aButton Выйти
+                                a#settings(href='#') Настройки
+                            form(action="/userSettings" method="POST" id="Change")
+                                a#settings(href='#') Сохранить
+                    else
+                        div.loginForm
+                            form(action="/login:main" method="POST" id="loginForm")
+                                h2 Вход
+                                if(noUser)
+                                    h4(style="color:red") Неправильное имя или пароль
+                                    input(name="username" placeholder="Имя пользователя" )
+                                    input(name="password" type="password" placeholder="Пароль" )
+                                    a.submit.aButton Войти
+                                else
+                                    input(name="username" placeholder="Имя пользователя")
+                                    input(name="password" type="password" placeholder="Пароль")
+                                    a.submit.aButton Войти
+            div(style='clear:both')
+                hr.line
+            div.topMenu
+                img(src='images/mobile.png')#mobMenu.mobile
+                div.dataS
+                    form(action="/searchData" method="POST" id="dataSearch")
+                        div#ShowPhpotoID
+                            img#ShowImg(src='images/showImg.png')
+                        input.clearable(name="searchD"  placeholder="Поиск товаров")
+                        div#selectContainer
+                            img(src='images/sort.png')
+                            select#chooseSort(size="0")
+                                option(disabled) Сортировка
+                                option(value="0") По умолчанию
+                                option(value="1") По алфавиту
+                                option(value="2") По цене (по возрастанию)
+                                option(value="3") По цене (по убыванию)
+                a.wrapImg(href="/corzina")
+                    img(src='images/corzina.png').corzina
+
+
+
+            div.categor-wrapper-fix
+                div#categor-wrapper
+                    div#categor
+
+
+
+
+            ul#PR.fixE.products.clearfix
+
+
+            div#light-pagination.pagination
+
+
+
+
+
